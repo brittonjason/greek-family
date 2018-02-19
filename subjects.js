@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+    
     function openTab(button, contentName) {
         $('.tabcontent').hide();
         $('.tablinks active').attr('class', 'tablinks');

@@ -62,6 +62,10 @@ a:hover {
     background-color: lightgray;
 }
 
+.subjectForm {
+    margin-bottom: 5px;
+}
+
 div#left {
     width: 50%;
     float: left;

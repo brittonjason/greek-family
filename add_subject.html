@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Add Subject</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="add_subject.js"></script>
+    </head>
+
+    <h1>Greek Gods</h1>
+
+    <ul id="navbar">
+        <li class="navbar"><a href="#">Home</a></li>
+        <li class="navbar"><a href="zeus.html">Search</a></li>
+        <li class="navbar"><a href="#">Profile</a></li>
+        <li class="navbar"><a href="#">Logout</a></li>
+    </ul>
+          
+    <p id="breadcrumbs" class="clear"><a href="#">Home</a> &gt; <a href="#">Profile</a> &gt; Add Subject</p>
+
+    <div id="left">
+
+        <h2>Add New Subject</h2>
+
+        <div id="submitMessage" style="display: none;">
+            <div id="message"></div>
+            <button id="addAnotherSubject">Add another subject</button>
+        </div>
+
+        <form id="addSubjectForm">
+            <input type="text" id="subjectName" class="subjectForm" placeholder="Name"><br>
+            <textarea id="subjectTitleDescription" class="subjectForm" placeholder="Title Description"></textarea><br>
+            <input type="text" id="subjectAbode" class="subjectForm" placeholder="Abode"><br>
+            <input type="text" id="subjectParent" class="subjectForm" placeholder="Parent"><br>
+            <input type="text" id="subjectConsort" class="subjectForm" placeholder="Consort"><br>
+            <input type="text" id="subjectChild" class="subjectForm" placeholder="Child"><br>
+            <input type="text" id="subjectSibling" class="subjectForm" placeholder="Sibling"><br>
+            <textarea id="subjectBio" class="subjectForm" placeholder="About"></textarea><br>
+            <button id="uploadPictureButton" class="subjectForm" type="button">Upload Picture</button><br>
+            <button id="submitFormButton" type="button">Submit</button>
+        </form>        
+
+    </div>
+
+</html>
